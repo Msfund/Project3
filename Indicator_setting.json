@@ -1,0 +1,388 @@
+{
+    "Ind_func": 
+        ["BBANDS", "EMA", "MA",
+        "ADX", "MACD",
+        "RSI",
+        "AD", "OBV"],
+    "BBANDS":
+        {
+        "timeperiod":[5, 10, 15, 20],
+        "nbdevup":[2],
+        "nbdevdn":[2],
+        "matype":[0]
+        },
+    "DEMA":
+        {"timeperiod" : [10, 12, 14, 26, 30]},
+    "EMA":
+        {"timeperiod" : [10, 12, 14, 26, 30]},
+    "KAMA":
+        {"timeperiod" : [10, 12, 14, 26, 30]},
+    "MA":
+        {
+        "timeperiod": [2, 3, 5, 7, 10, 15, 20, 30, 40, 50, 70, 90,100],
+        "matype": [0]
+        }, 
+    "MAMA": 
+        {
+        "fastlimit":[0.5],
+        "slowlimit":[0.5]
+        },
+    "MAVP":
+        {
+        "minperiod":[2],
+        "maxperiod":[30],
+        "matype":[0]
+        },
+    "MIDPOINT":
+        {"timeperiod" : [14]},
+    "MIDPRICE":
+        {"timeperiod" : [14]},
+    "SAR":
+        {
+        "acceleration" : [0],
+        "maximum" : [0]
+        },
+    "SAREXT":
+        {
+        "startvalue":[0],
+        "offsetonreverse":[0],
+        "accelerationinitlong":[0],
+        "accelerationlong":[0],
+        "accelerationmaxlong":[0],
+        "accelerationinitshort":[0],
+        "accelerationshort":[0],
+        "accelerationmaxshort":[0]
+        },
+    "SMA":
+        {"timeperiod": [30]},
+    "T3":
+        {
+        "timeperiod" : [5],
+        "vfactor": [0]
+        },
+    "TEMA":
+        {"timeperiod": [30]},
+    "TRIMA":
+        {"timeperiod": [30]},
+    "WMA":
+        {"timeperiod": [30]},
+    "ADX":
+        {"timeperiod": [14]},
+    "ADXR":
+        {"timeperiod": [14]},
+    "APO":
+        {
+        "fastperiod": [12],
+        "slowperiod": [26],
+        "matype": [0]
+        },
+    "AROON":
+        {"timeperiod": [14]},
+    "AROONOSC":
+        {"timeperiod": [14]},
+    "BOP":
+        {},
+    "CCI":
+        {"timeperiod": [14]},
+    "DX":
+        {"timeperiod": [14]},
+    "MACD":
+        {
+        "fastperiod": [12],
+        "slowperiod": [26],
+        "signalperiod": [9]
+        },
+    "MACDEXT":
+        {
+        "fastperiod":[12],
+        "fastmatype":[0],
+        "slowperiod":[26],
+        "slowmatype":[0],
+        "signalperiod":[9],
+        "signalmatype":[0]
+        },
+    "MACDFIX":
+        {"signalperiod":[9]},
+    "MFI":
+        {"timeperiod": [14]},
+    "MINUS_DI":
+        {"timeperiod": [14]},
+    "MINUS_DM":
+        {"timeperiod": [14]},
+    "MOM":
+        {"timeperiod": [14]},
+    "PLUS_DI":
+        {"timeperiod": [14]},
+    "PLUS_DM":
+        {"timeperiod": [14]},
+    "PPO":
+        {
+        "fastperiod": [12],
+        "slowperiod": [26],
+        "matype": [0]
+        },
+    "ROC":
+        {"timeperiod": [10]},
+    "ROCP":
+        {"timeperiod": [10]},
+    "ROCR":
+        {"timeperiod": [10]},
+    "ROCR100":
+        {"timeperiod": [10]},
+    "RSI":
+        {"timeperiod": [14]},
+    "STOCH":
+        {
+        "fastk_period":[5],
+        "slowk_period":[3],
+        "slowk_matype":[0],
+        "slowd_period":[3],
+        "slowd_matype":[0]
+        },
+    "STOCHF":
+        {
+        "fastk_period":[5],
+        "fastd_period":[3],
+        "fastd_matype":[0]
+        },
+    "TRIX":
+        {"timeperiod": [30]},
+    "ULTOSC":
+        {"timeperiod1":[7],
+        "timeperiod2":[14],
+        "timeperiod3":[28]
+        },
+    "WILLR":
+        {"timeperiod":[14]},
+    "AD":
+        {},
+    "ADOSC":
+        {
+        "fastperiod":[3],
+        "slowperiod":[10]
+        },
+    "OBV":
+        {},        
+    "HT_DCPERIOD":
+        {},
+    "HT_DCPHASE":
+        {},
+    "HT_PHASOR":
+        {},
+    "HT_SINE":
+        {},
+    "HT_TRENDMODE":
+        {},
+    "AVGPRICE":
+        {},
+    "MEDPRICE":
+        {},
+    "TYPPRICE":
+        {},
+    "WCLPRICE":
+        {},
+    "ATR":
+        {"timeperiod":[14]},
+    "NATR":
+        {"timeperiod":[14]},
+    "TRANGE":
+        {},
+    "CDL2CROWS":
+        {},
+    "CDL3BLACKROWS":
+        {},
+    "CDL3INSIDE":
+        {},
+    "CDL3LINESTRIKE":
+        {},
+    "CDL3OUTSIDE":
+        {},
+    "CDL3STARSINSOUTH":
+        {},
+    "CDL3WHITESOLDIERS":
+        {},
+    "CDLABANDONEDBABY":
+        {"penetration":[0]},
+    "CDLADVANCEBLOCK":
+        {},
+    "CDLBELTHOLD":
+        {},
+    "CDLBREAKAWAY":
+        {},
+    "CDLCLOSINGMARUBOZU":
+        {},
+    "CDLCONCEALBABYSWALL":
+        {},
+    "CDLCOUNTERATTACK":
+        {},
+    "CDLDARKCLOUDCOVER":
+        {"penetration":[0]},
+    "CDLDOJI":
+        {},
+    "CDLDOJISTAR":
+        {},
+    "CDLDRAGONFLYDOJI":
+        {},
+    "CDLENGULFING":
+        {},
+    "CDLEVENINGDOJISTAR":
+        {"penetration":[0]},
+    "CDLEVENINGSTAR":
+        {"penetration":[0]},
+    "CDLGAPSIDESIDEWHITE":
+        {},
+    "CDLGRAVESTONEDOJI":
+        {},
+    "CDLHAMMER":
+        {},
+    "CDLHANGINGMAN":
+        {},
+    "CDLHARAMI":
+        {},
+    "CDLHARAMICROSS":
+        {},
+    "CDLHIGHWAVE":
+        {},
+    "CDLHIKKAKE":
+        {},
+    "CDLHIKKAKEMOD":
+        {},
+    "CDLHOMINGPIGEON":
+        {},
+    "CDLIDENTICAL3CROWS":
+        {},
+    "CDLINNECK":
+        {},
+    "CDLINVERTEDHAMMER":
+        {},
+    "CDLKICKING":
+        {},
+    "CDLKICKINGBYLENGTH":
+        {},
+    "CDLLADDERBOTTOM":
+        {},
+    "CDLLONGLEGGEDDOJI":
+        {},
+    "CDLLONGLINE":
+        {},
+    "CDLMARUBOZU":
+        {},
+    "CDLMATCHINGLOW":
+        {},
+    "CDLMATHOLD":
+        {"penetration":[0]},
+    "CDLMORNINGDOJISTAR":
+        {"penetration":[0]},
+    "CDLMORNINGSTAR":
+        {"penetration":[0]},
+    "CDLONNECK":
+        {},
+    "CDLPIERCING":
+        {},
+    "CDLRICKSHAWMAN":
+        {},
+    "CDLRISEFALL3METHODS":
+        {},
+    "CDLSEPARATINGLINES":
+        {},
+    "CDLSHOOTINGSTAR":
+        {},
+    "CDLSHORTLINE":
+        {},
+    "CDLSPINNINGTOP":
+        {},
+    "CDLSTALLEDPATTERN":
+        {},
+    "CDLSTICKSANDWICH":
+        {},
+    "CDLTAKURI":
+        {},
+    "CDLTASUKIGAP":
+        {},
+    "CDLTHRUSTING":
+        {},
+    "CDLTRISTAR":
+        {},
+    "CDLUNIQUE3RIVER":
+        {},
+    "CDLUPSIDEGAP2CROWS":
+        {},
+    "CDLXSIDEGAP3METHODS":
+        {},
+    "BETA":
+        {"timeperiod":[5]},
+    "CORREL":
+        {"timeperiod":[30]},
+    "LINEARREG":
+        {"timeperiod":[14]},
+    "LINEARREG_ANGLE":
+        {"timeperiod":[14]},
+    "LINEARREG_INTERCEPT":
+        {"timeperiod":[14]},
+    "LINEARREG_SLOPE":
+        {"timeperiod":[14]},
+    "STDDEV":
+        {
+        "timeperiod":[14],
+        "nbdev":[1]
+        },
+    "TSF":
+        {"timeperiod":[14]},
+    "VAR":
+        {
+        "timeperiod":[14],
+        "nbdev":[1]
+        },
+    "ACOS":
+        {},
+    "ASIN":
+        {},
+    "ATAN":
+        {},
+    "CEIL":
+        {},
+    "COS":
+        {},
+    "COSH":
+        {},
+    "EXP":
+        {},
+    "FLOOR":
+        {},
+    "LN":
+        {},
+    "LOG10":
+        {},
+    "SIN":
+        {},
+    "SINH":
+        {},
+    "SQRT":
+        {}, 
+    "TAN":
+        {},
+    "TANH":
+        {},
+    "ADD":
+        {},
+    "DIV":
+        {},
+    "MAX":
+        {"timeperiod":[30]},
+    "MAXINDEX":
+        {"timeperiod":[30]},
+    "MIN":
+        {"timeperiod":[30]},
+    "MININDEX":
+        {"timeperiod":[30]},
+    "MINMAX":
+        {"timeperiod":[30]},
+    "MINMAXINDEX":
+        {"timeperiod":[30]},
+    "MULT":
+        {},
+    "SUB":
+        {},
+    "SUM":
+        {"timeperiod":[30]}
+}
